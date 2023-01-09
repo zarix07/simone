@@ -1,0 +1,562 @@
+@media screen and (max-width:600px) {
+    .nav-bar{
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .nav-pages ul{
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .nav-pages ul li{
+        padding: 0;
+    }
+    .nav-icons{
+        position: absolute;
+        right: 0;
+    }
+    .home .home-caption h2{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .home .home-caption p{
+        margin-top: 30px;
+    }
+
+
+    /* about media  */
+    .about .layer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .about-heading{
+        margin-bottom: 30px;
+    }
+    .about-heading h3{
+        position: absolute;
+        top: 25%;
+    }    
+    .about .layer h2{
+        text-align: center;
+    }
+    .about .layer .desc{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .about .layer .form{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .about-container .brands-grid{
+        width: 100%;
+        flex-wrap: wrap;
+        align-content: space-around;
+        text-align: center;
+    }
+    .about-container .brands-grid .row{
+        width: 50%;
+    }
+    .about-container .brands-grid .row4{
+        width: 50%;
+    }
+    .about-container .brands-grid .row::after{
+        content: "";
+    background-color: #e0dede;
+    width: 1%;
+    height: 120%;
+    position: absolute;
+    left: 99%;
+    top: -1px;
+    }
+
+    /* what i do media  */
+    .what-i-do{
+        margin-top: 8rem;
+    }
+    .w-i-d-container .title{
+        padding-top: 3rem;
+    }
+    .w-i-d-container .title h2{
+        position: absolute;
+    top: 48%;
+    left: 30%;
+    }
+    .ser-container .items{
+        flex-direction: column;
+    }
+    .ser-container .items .item{
+        width: 100%;
+    }
+
+    /* resume media  */
+    .res-heading p{
+        position: absolute;
+        left: 30%;
+        top: 28%;
+    }
+    
+    .edu-exp-container{
+        flex-direction: column;
+    }
+    .edu-exp-container .my-edu{
+        width: 100%;
+    }
+    .edu-exp-container .my-edu .my-edu-item{
+        width: 100%;
+        margin: 0;
+    }
+    .edu-exp-container .my-edu .my-edu-item .date{
+        width: 25%;
+    }
+    .edu-exp-container .my-exp{
+        width: 100%;
+    }
+    .edu-exp-container .my-exp .my-exp-item{
+        width: 100%;
+        margin: 0;
+    }
+    .edu-exp-container .my-exp .my-exp-item .date{
+        width: 25%;
+    }
+    .skills-meter{
+        flex-direction: column;
+    }
+    .skills-meter .meter-colum{
+        width: 100%;
+        padding: 0;
+    }
+
+    /* portfolio media  */
+    .portfolio-container .portfolio-heading p{
+        font-weight: 600 !important;
+        font-size: 2.25rem !important;
+        line-height: 1.5!important;
+        position: absolute;
+        top: 25%;
+        left: 33%;
+    }
+    .portfolio-gallary{
+        flex-direction: column;
+    }
+    .portfolio-gallary .col{
+        width: 100%;
+    }
+
+    /* client media  */
+    .client .client-heading p{
+        position: absolute;
+        top: 23%;
+        left: 27%;
+    }
+    .client .client-items{
+        flex-direction: column;
+    }
+    .client-items .item{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+    /* contact media  */
+    .contact .contact-heading p{
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    }
+    .contact .content{
+        flex-direction: column-reverse;
+    }
+    .contact .content .address{
+        width: 100%;
+        text-align: center;
+    }
+    .content .address ul{
+        justify-content: center;
+    }
+    .contact .content .send-us{
+        width: 100%;
+    }
+    .contact .content .send-us h2{
+        text-align: center;
+    }
+    .contact .content .send-us .n-e{
+        flex-direction: column;
+    }
+    .content .send-us form .send-btn{
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+
+    /* footer media  */
+    .section .container .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:601px) and (max-width:768px){
+    .nav-bar{
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .nav-pages ul{
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .nav-pages ul li{
+        padding: 0;
+    }
+    .nav-icons{
+        position: absolute;
+        right: 0;
+    }
+    .home .home-caption h2{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .home .home-caption p{
+        margin-top: 30px;
+    }
+    /* about media  */
+
+    .about .layer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .about-heading{
+        margin-bottom: 30px;
+    }
+    .about .layer h2{
+        text-align: center;
+    }
+    .about-heading h3{
+        position: absolute;
+        top: 30%;
+        font-weight: 600 !important;
+        font-size: 2.25rem !important;
+        color: #212529!important;
+    }
+    .about .layer .desc{
+        width: 70%;
+        margin-bottom: 35px;
+    }
+    .about .layer .form{
+        width: 70%;
+        margin-bottom: 40px;
+    }
+    .about-container .brands-grid{
+        width: 100%;
+        flex-wrap: wrap;
+        align-content: space-around;
+        text-align: center;
+    }
+    .about-container .brands-grid .row{
+        width: 40%;
+    }
+    .about-container .brands-grid .row4{
+        width: 40%;
+    }
+    .about-container .brands-grid .row::after{
+        content: "";
+    background-color: #e0dede;
+    width: 1%;
+    height: 120%;
+    position: absolute;
+    left: 99%;
+    top: -1px;
+    }
+    
+    /* what i do media  */
+    .what-i-do{
+        margin-top: 8rem;
+    }
+    .w-i-d-container .title{
+        padding-top: 3rem;
+    }
+    .w-i-d-container .title h2{
+        position: absolute;
+    top: 48%;
+    left: 30%;
+    }
+    .ser-container .items{
+        flex-direction: column;
+    }
+    .ser-container .items .item{
+        width: 100%;
+    }
+    /* resume media  */
+    .res-heading p{
+        position: absolute;
+        left: 35%;
+        top: 28%;
+    }
+    
+    .edu-exp-container{
+        flex-direction: column;
+    }
+    .edu-exp-container .my-edu{
+        width: 100%;
+    }
+    .edu-exp-container .my-edu .my-edu-item{
+        width: 100%;
+        margin: 0;
+    }
+    .edu-exp-container .my-edu .my-edu-item .date{
+        width: 20%;
+    }
+    .edu-exp-container .my-exp{
+        width: 100%;
+    }
+    .edu-exp-container .my-exp .my-exp-item{
+        width: 100%;
+        margin: 0;
+    }
+    .edu-exp-container .my-exp .my-exp-item .date{
+        width: 20%;
+    }
+    .skills-meter{
+        flex-direction: column;
+    }
+    .skills-meter .meter-colum{
+        width: 100%;
+        padding: 0;
+    }
+
+    /* portfolio media  */
+    .portfolio-container .portfolio-heading p{
+        font-weight: 600 !important;
+        font-size: 2.25rem !important;
+        line-height: 1.5!important;
+        position: absolute;
+        top: 25%;
+        left: 33%;
+    }
+    .portfolio-gallary .col{
+        width: 50%;
+    }
+    /* client media  */
+    .client .client-heading p{
+        position: absolute;
+        top: 23%;
+        left: 27%;
+    }
+    .client .client-items{
+        flex-direction: column;
+    }
+    .client-items .item{
+        width: 100%;
+        margin: 1rem 0;
+    }
+     /* contact media  */
+    .contact .contact-heading p{
+        position: absolute;
+        top: 22%;
+        left: 27%;
+    }
+    .contact .content{
+        flex-direction: column-reverse;
+    }
+    .contact .content .address{
+        width: 100%;
+        text-align: center;
+    }
+    .content .address ul{
+        justify-content: center;
+    }
+    .contact .content .send-us{
+        width: 100%;
+    }
+    .contact .content .send-us h2{
+        text-align: center;
+    }
+    .contact .content .send-us .n-e{
+        flex-direction: column;
+    }
+    .content .send-us form .send-btn{
+        width: 40%;
+        margin-bottom: 3rem;
+    }
+     /* footer media  */
+    .section .container .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .nav-bar{
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .nav-pages ul{
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .nav-pages ul li{
+        padding: 0;
+    }
+    .nav-icons{
+        position: absolute;
+        right: 0;
+    }
+    .home .home-caption h2{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .home .home-caption p{
+        margin-top: 30px;
+    }
+    /* about media  */
+    .about .layer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .about-heading{
+        margin-bottom: 30px;
+    }
+    .about .layer h2{
+        text-align: center;
+    }
+    .about-heading h3{
+        position: absolute;
+        top: 30%;
+        font-weight: 600 !important;
+        font-size: 2.25rem !important;
+        color: #212529!important;
+    }
+    .about .layer .desc{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .about .layer .form{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .about-container .brands-grid{
+        width: 100%;
+        align-content: space-around;
+        text-align: center;
+    }
+    .about-container .brands-grid .row{
+        width: 100%;
+    }
+    .about-container .brands-grid .row4{
+        width: 100%;
+    }
+    .about-container .brands-grid .row::after{
+        content: "";
+    background-color: #e0dede;
+    width: 1%;
+    height: 120%;
+    position: absolute;
+    left: 99%;
+    top: -1px;
+    }
+
+
+    /* what i do media */
+    .w-i-d-container .title h2{
+        position: absolute;
+    top: 35%;
+    left: 35%;
+    }
+
+    /* resume media  */
+    .res-heading p{
+        position: absolute;
+        left: 38%;
+        top: 28%;
+    }
+    
+    .edu-exp-container .my-edu{
+        width: 100%;
+    }
+    .edu-exp-container .my-edu .my-edu-item{
+        width: 100%;
+        margin: 0;
+    }
+    .edu-exp-container .my-edu .my-edu-item .date{
+        width: 30%;
+    }
+    .edu-exp-container .my-exp{
+        width: 100%;
+    }
+    .edu-exp-container .my-exp .my-exp-item{
+        width: 100%;
+    }
+    .edu-exp-container .my-exp .my-exp-item .date{
+        width: 30%;
+    }
+    .skills-meter{
+        display: flex;
+    }
+    .skills-meter .meter-colum{
+        width: 50%;
+    }
+    
+    /* portfolio media */
+    .portfolio-container .portfolio-heading p{
+        font-weight: 600 !important;
+        font-size: 2.25rem !important;
+        line-height: 1.5!important;
+        position: absolute;
+        top: 28%;
+        left: 38%;
+    }
+    .portfolio-gallary .col{
+        width: 50%;
+    }
+    /* client media  */
+    .client .client-heading p{
+        position: absolute;
+        top: 25%;
+        left: 32%;
+    }
+    .client .client-items{
+        flex-direction: column;
+    }
+    .client-items .item{
+        width: 100%;
+        margin: 1rem 0;
+    }
+    
+    /* contact media  */
+    .contact .contact-heading p{
+        position: absolute;
+        top: 25%;
+        left: 33%;
+    }
+    .contact .content{
+        justify-content: space-between;
+    }
+    .contact .content .address{
+        width: 35%;
+        text-align: left;
+    }
+    .content .address ul{
+        justify-content: center;
+    }
+    .contact .content .send-us{
+        width: 65%;
+    }
+    .contact .content .send-us h2{
+        text-align: center;
+    }
+    .contact .content .send-us .n-e{
+        flex-direction: column;
+    }
+    .content .send-us form .send-btn{
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+     /* footer media  */
+    .section .container .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
